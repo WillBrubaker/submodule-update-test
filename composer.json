@@ -1,5 +1,5 @@
 {
     "require": {
-        "WillBrubaker/woocommerce-product-vendors": ">=2.1"
+        "woocommerce/woocommerce": ">=3.9"
     }
 }
