@@ -2,5 +2,10 @@
     "require": {
         "woocommerce/woocommerce": ">=3.9",
 								"WillBrubaker/woocommerce-product-vendors": ">=2.1"
+    },
+				"packages": {
+        "WillBrubaker/woocommerce-product-vendors": {
+            "master": { @composer.json }
+        }
     }
 }
