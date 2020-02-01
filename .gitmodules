@@ -1,0 +1,3 @@
+[submodule "woocommerce-product-vendors"]
+	path = woocommerce-product-vendors
+	url = git@github.com:WillBrubaker/woocommerce-product-vendors.git
