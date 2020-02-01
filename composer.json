@@ -1,5 +1,6 @@
 {
     "require": {
-        "woocommerce/woocommerce": ">=3.9"
+        "woocommerce/woocommerce": ">=3.9",
+								"woocommerce/woocommerce-product-vendors": ">=2.1"
     }
 }
