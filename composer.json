@@ -2,8 +2,12 @@
 	"name": "willbrubaker/submodule-update-test",
 	"description": "trying to figure out how to keep submodules up to date with depedabot",
 	"license": "GPL-2.0-or-later",
-	"require": {
-		"woocommerce/woocommerce": "^3.9",
-		"willbrubaker/woocommerce-product-vendors": "^2.1"
-	}
+	"repositories": [
+    { "type": "wordpress-plugin", "url": "https://github.com/woocommerce/woocommerce" },
+    { "type": "wordpress-plugin", "url": "git@github.com:WillBrubaker/woocommerce-product-vendors.git" }
+  ],
+		"require": {
+    "WillBrubaker/woocommerce-product-vendors": "*",
+    "woocommerce/woocommerce": "*"
+  }
 }
